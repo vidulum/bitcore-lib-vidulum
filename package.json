@@ -1,14 +1,14 @@
 {
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": {
-    "name": "Thw BitcoinZ Community",
-    "email": "admin@bitcoinz.ph"
+    "name": "SnowGem Foundation",
+    "email": "community@snowgem.org"
   },
   "browser": {
     "request": "browser-request"
   },
   "bugs": {
-    "url": "https://github.com/bitcoinz-wallets/bitcore-lib-xsg/issues"
+    "url": "https://github.com/snowgem/bitcore-lib-xsg/issues"
   },
   "contributors": [
     {
@@ -123,7 +123,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoinz-wallets/bitcore-lib-xsg.git"
+    "url": "git+https://github.com/snowgem/bitcore-lib-xsg.git"
   },
   "scripts": {
     "build": "gulp",

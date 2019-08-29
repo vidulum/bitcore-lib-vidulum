@@ -190,11 +190,11 @@ describe('BufferReader', function() {
       br.readUInt64LEBN().toNumber().should.equal(1);
     });
 
-    it('should return 10XSG', function() {
-      var tenxsg = 10 * 1e8;
-      var tenxsgBuffer = new Buffer('00ca9a3b00000000', 'hex');
-      var br = new BufferReader(tenxsgBuffer);
-      br.readUInt64LEBN().toNumber().should.equal(tenxsg);
+    it('should return 10VDL', function() {
+      var tenvdl = 10 * 1e8;
+      var tenvdlBuffer = new Buffer('00ca9a3b00000000', 'hex');
+      var br = new BufferReader(tenvdlBuffer);
+      br.readUInt64LEBN().toNumber().should.equal(tenvdl);
     });
 
     it('should return 2^30', function() {

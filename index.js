@@ -7,14 +7,14 @@ bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   return
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-snowgem found. ' +
-      'Please make sure to require bitcore-lib-snowgem and check that submodules do' +
-      ' not also include their own bitcore-lib-snowgem dependency.';
+    var message = 'More than one instance of bitcore-lib-vidulum found. ' +
+      'Please make sure to require bitcore-lib-vidulum and check that submodules do' +
+      ' not also include their own bitcore-lib-vidulum dependency.';
     throw new Error(message);
   }
 };
-bitcore.versionGuard(global._bitcoreXsg);
-global._bitcoreXsg = bitcore.version;
+bitcore.versionGuard(global._bitcoreVdl);
+global._bitcoreVdl = bitcore.version;
 
 // crypto
 bitcore.crypto = {};
